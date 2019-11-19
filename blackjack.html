@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="index.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ </head>
+ <body>
+  
+  <div id="playArea">
+      <h1>Black Jack</h1>
+      <h2>Dealer</h2>
+      <h2 class="player">Player</h2>
+        <div id="card0">
+            <div>
+                <div class="number">2</div>
+                <div class="suit">&#9824</div>
+                <div class="suit1">&#9824</div>
+                <div class="numberinverted">2</div>
+                
+            </div>
+        </div>
+        <div id="card1">
+            <div>
+                <div class="number">5</div>
+                <div class="suit">&#9827</div>
+                <div class="suit1">&#9827</div>
+                <div class="numberinverted">5</div>
+                
+            </div>
+        </div>
+        <div id="card2">
+            <div>
+                <div class="number">3</div>
+                <div class="suit">&#9830</div>
+                <div class="suit1">&#9830</div>
+                <div class="numberinverted">3</div>
+            </div>
+        </div>
+        <div id="card3">
+            <div>
+                <div class="number">4</div>
+                <div class="suit">&#9829</div>
+                <div class="suit1">&#9829</div>
+                <div class="numberinverted">4</div>
+            </div>
+        </div>
+        <div class="dummyreplace"></div>
+        <div class="hitcard">
+            <div>
+                <div class="number">5</div>
+                <div class="suit">&#9829</div>
+                <div class="suit1">&#9829</div>
+                <div class="numberinverted">4</div>
+            </div>
+        </div>
+    
+        <div class="buttons">
+            <button id="button1" type="button" onclick="start()">Start</button>
+            <button id="button2" type="button" onclick="hit()">Hit</button>
+            <button id="button3" type="button" onclick="start()">Stand</button>
+        </div>
+  </div>     
+  
+ </body>
+             
+ 
+</html>

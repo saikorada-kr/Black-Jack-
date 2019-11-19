@@ -1,0 +1,133 @@
+#playArea{
+    background-image: url(https://images6.alphacoders.com/371/thumb-1920-371656.jpg);
+    height: 100vh;
+    width: 100%;
+    border:3px solid black;
+    }
+h1{
+    font-size: 120px;
+    font-style: oblique;
+    text-align: center;
+    text-shadow: 1px 1px white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height:80px;
+    }
+h2{
+    position: absolute;
+    top: 161px;
+    bottom: 47px;
+    left: 5%;
+    font-size: 80px;
+    font-style: italic;
+    text-shadow: 1px 1px white;
+    text-emphasis-color: black;
+    margin: 0%;
+    padding: unset;
+    width: 500px;
+    height: 80px;
+}    
+.player{
+    position: absolute;
+    bottom: 47px;
+    left: 60%;
+    font-size: 80px;
+    font-style: italic;
+    text-shadow: 1px 1px white;
+    width: 500px;
+}
+    
+#card0{
+    position:absolute;
+    top:250px;
+    left:5%;
+    width:200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 6px 6px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+.number {
+    font-size: 40px;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+}
+.buttons {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+button {
+        font-size: 30px;
+        font-family: Garamond;
+        box-shadow: 5px 5px black;
+        font-style: normal;
+        border-radius: 10px;
+        background-color:white;
+}
+.suit {
+    font-size: 150px;
+    position: absolute;
+    left: 30%;
+    top: 15%;
+}
+#card1{
+    position:absolute;
+    top:250px;
+    left:8%;
+    width:200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 6px 6px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+#card2{
+    position:absolute;
+    top:250px;
+    left:60%;
+    width:200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 6px 6px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+#card3{
+    position:absolute;
+    top:250px;
+    left:63%;
+    width:200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 6px 6px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+}
+.numberinverted{
+    font-size: 40px;
+    position: absolute;
+    left: 85%;
+    top: 85%;
+    transform: scale(-1);
+}
+.suit1 {
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    font-size: 40px;
+}
+.hitcard{
+    position:absolute;
+    top:250px;
+    left:63%;
+    width:200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 6px 6px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+
+}
